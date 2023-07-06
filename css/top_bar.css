@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_bar {
+    background-color: rgb(4, 3, 54);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu_bar ul li {
+    padding: 10px 50px;
+    position: relative;
+}
+
+.menu_bar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: xx-large;
+    transition: all 0.3s;
+
+}
+
+.menu_bar ul li a:hover {
+    color: aqua;
+
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(4, 3, 54);
+}
+
+.dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown_menu {
+    display: none;
+}

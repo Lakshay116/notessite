@@ -1,0 +1,63 @@
+.footer {
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(4, 3, 54);
+    height: 200px;
+
+}
+
+h1 {
+    color: aqua;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.footer {
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 100vh; */
+
+}
+
+.insta {
+    position: absolute;
+    top: 80px;
+    /* left: 1165px; */
+    left: 86.5%;
+    width: 50px;
+    display: inline;
+}
+
+.git {
+    position: absolute;
+    top: 80px;
+    /* left: 1225px; */
+    left: 91%;
+    align-items: center;
+    width: 50px;
+    display: inline;
+}
+
+.phn {
+    position: absolute;
+    top: 75px;
+    /* left: 1280px; */
+    left:95%;
+    width: 60px;
+    display: inline;
+}
+.email{
+    position: absolute;
+     top: 100px;
+    /* left: 1280px; */
+    left:2%; 
+    color: rgb(206, 209, 209);
+    display: inline;
+    font-size: 25px;
+}
+.email_a{
+    text-decoration: none;
+    color: rgb(192, 194, 194);
+}
+.email_a:hover{
+    color: aqua;
+}
